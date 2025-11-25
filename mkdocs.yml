@@ -1,8 +1,8 @@
-site_name: tstgispypkg
+site_name: lonlat
 site_description: A python package for geospatial analysis and mapping.
 site_author: BOOMovo
-site_url: https://BOOMovo.github.io/tstgispypkg
-repo_url: https://github.com/BOOMovo/tstgispypkg
+site_url: https://BOOMovo.github.io/lonlat
+repo_url: https://github.com/BOOMovo/lonlat
 
 copyright: "Copyright &copy; 2024 - 2024 Jingze Liu"
 
@@ -47,7 +47,7 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-          execute: True
+          execute: True     # Execute Jupyter notebooks during the build process
           allow_errors: false
           ignore: ["conf.py"]
           execute_ignore: ["*ignore.ipynb"]
@@ -78,9 +78,10 @@ nav:
     - Contributing: contributing.md
     - FAQ: faq.md
     - Changelog: changelog.md
-    - Report Issues: https://github.com/BOOMovo/tstgispypkg/issues
+    - Report Issues: https://github.com/BOOMovo/lonlat/issues
     - Examples:
         - examples/intro.ipynb
+        - examples/maps.ipynb
     - API Reference:
-          - tstgispypkg module: tstgispypkg.md
+          - lonlat module: lonlat.md
           - common module: common.md

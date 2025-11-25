@@ -1,4 +1,0 @@
-
-# tstgispypkg module
-
-::: tstgispypkg.tstgispypkg

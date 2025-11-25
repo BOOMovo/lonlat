@@ -1,4 +1,4 @@
-"""Top-level package for tstgispypkg."""
+"""Top-level package for lonlat."""
 
 __author__ = """Jingze Liu"""
 __email__ = "jingze899@gmail.com"

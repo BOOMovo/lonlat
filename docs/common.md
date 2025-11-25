@@ -1,3 +1,3 @@
 # common module
 
-::: tstgispypkg.common
+::: lonlat.common
