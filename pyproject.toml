@@ -1,5 +1,5 @@
 [project]
-name = "tstgispypkg"
+name = "lonlat"
 version = "0.0.1"
 dynamic = [
     "dependencies",
@@ -8,7 +8,7 @@ description = "A python package for geospatial analysis and mapping."
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = [
-    "tstgispypkg",
+    "lonlat",
 ]
 license = {text = "MIT License"}
 authors = [
@@ -26,11 +26,11 @@ classifiers = [
 ]
 
 [project.entry-points."console_scripts"]
-tstgispypkg = "tstgispypkg.cli:main"
+lonlat = "lonlat.cli:main"
 
 [project.optional-dependencies]
 all = [
-    "tstgispypkg[extra]",
+    "lonlat[extra]",
 ]
 
 extra = [
@@ -40,7 +40,7 @@ extra = [
 
 [tool]
 [tool.setuptools.packages.find]
-include = ["tstgispypkg*"]
+include = ["lonlat*"]
 exclude = ["docs*"]
 
 [tool.setuptools.dynamic]
@@ -62,7 +62,7 @@ search = 'version = "{current_version}"'
 replace = 'version = "{new_version}"'
 
 [[tool.bumpversion.files]]
-filename = "tstgispypkg/__init__.py"
+filename = "lonlat/__init__.py"
 search = '__version__ = "{current_version}"'
 replace = '__version__ = "{new_version}"'
 
@@ -75,8 +75,11 @@ max-line-length = 88
 
 
 [project.urls]
-Homepage = "https://github.com/BOOMovo/tstgispypkg"
+Homepage = "https://github.com/BOOMovo/lonlat"
 
 [build-system]
 requires = ["setuptools>=64", "setuptools_scm>=8"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+obsoletes = ["tstgispypkg"]

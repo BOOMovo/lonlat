@@ -8,7 +8,7 @@ labels: bug
 
 ### Environment Information
 
--   tstgispypkg version:
+-   lonlat version:
 -   Python version:
 -   Operating System:
 

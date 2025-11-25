@@ -1,1 +1,1 @@
-"""Unit test package for tstgispypkg."""
+"""Unit test package for lonlat."""

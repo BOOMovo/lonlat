@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-"""Tests for `tstgispypkg` package."""
+"""Tests for `lonlat` package."""
 
 
 import unittest
 
-from tstgispypkg import tstgispypkg
+from lonlat import lonlat
 
 
-class TestTstgispypkg(unittest.TestCase):
-    """Tests for `tstgispypkg` package."""
+class Testlonlat(unittest.TestCase):
+    """Tests for `lonlat` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""

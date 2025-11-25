@@ -1,4 +1,4 @@
 
-# tstgispypkg module
+# lonlat module
 
-::: tstgispypkg.tstgispypkg
+::: lonlat.lonlat

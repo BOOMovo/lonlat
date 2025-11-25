@@ -1,7 +1,7 @@
 # Usage
 
-To use tstgispypkg in a project:
+To use lonlat in a project:
 
 ```
-import tstgispypkg
+import lonlat
 ```
